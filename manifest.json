@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "thegreenmasheen",
+  "description": "Be green.",
+  "version": "1.0",
+   "content_scripts": [{
+    "matches" : ["https://www.facebook.com/*"],
+    "js": ["shrek.js"]
+  }],
+  "web_accessible_resources": ["img/shrek.png"]
+}
